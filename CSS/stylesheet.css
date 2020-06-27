@@ -1,0 +1,78 @@
+body{
+    
+background-color: saddlebrown;
+}
+
+h1{
+    
+    font-size: 50px;
+    color: aqua;
+    
+    
+}
+
+p{
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+}
+
+ol{
+    
+    margin: 20px;
+    color: white;
+}
+/* IDs and Classes */
+
+
+#title{
+
+color:aquamarine;
+    margin: 15px;
+    padding: 10px;
+    background-color: beige;
+}
+.content1{
+    color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.content2{
+    color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+/* Descendent Selectors lecture */
+.primarybox{
+    background-color: blueviolet;
+    border: solid 10px #333;
+    padding: 10px;
+    margin: 10px;
+}
+.secondarybox{
+    background-color: crimson;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+.secondarybox p em{
+    color:chartreuse;
+}
+.secondarybox em{
+    color: aqua
+}
+/*Grouping Selector*/
+#content{
+    width: 960px;
+    margin: 0 auto;
+}
+.primarybox, .secondarybox{
+    margin: 30px 20px;
+    border: solid #332
+}
